@@ -1,2 +1,2 @@
 # rsschool-cv
-[CV.md] (https://hospelthiv.github.io/rsschool-cv/cv)
+[CV](https://hospelthiv.github.io/rsschool-cv/cv "ссылка на CV")
