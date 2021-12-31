@@ -16,6 +16,7 @@ I have no experience in web application development. But I'm interested in learn
 4. JS Basic.
 
 ## Code example
+```
 function myFunction(arrayMy){
     const inpObj = (document.getElementById("inNameClan").value).toUpperCase();
     if(arrayMy.indexOf(inpObj)<0){
@@ -25,6 +26,7 @@ function myFunction(arrayMy){
       document.getElementById("clanScan").innerHTML = arrayMy[arrayMy.indexOf(inpObj)+1];
     }
 }
+```
 ## Experience
 No experience in web development. RSSchool is the first course I take.
 
