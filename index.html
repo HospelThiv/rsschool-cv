@@ -4,10 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./images/logo.png" type="image/png" sizes="64x64">
 </head>
 <body>
-    <h1>My CV</h1>
+    <header>
+        <div class="container_header">
+            <h1>Hello,<br>I'm Sergej<br>Laktionov</h1>
+            <img class="header_avatar" src="./images/avatar.jpg" alt="avatar">
+        </div>
+    </header>
+    <div class="container_navigation">
+        <nav class="navigation">
+            <a class="nav_link" href="#contacts">contacts</a>
+            <a class="nav_link" href="#about_me">about me</a>
+            <a class="nav_link" href="#skills">skills</a>
+            <a class="nav_link" href="#code">code</a>
+            <a class="nav_link" href="#education">education</a>
+            <a class="nav_link" href="#language">language</a>
+        </nav>
+    </div>
+    <main>
+        <section class="section_contacts" id="contacts">
+            <h2>Contacts</h2>
+            <div class="container">
+                <img src="./images/discord_logo_icon.png" alt="discord icon">
+                <a class="contacts_link" href="https://discord.com/?">Hospel (Сергей)#6236</a>
+            </div>
+            <div class="container">
+                <img src="./images/github_icon-icons.png" alt="GitHub icon">
+                <a class="contacts_link" href="https://github.com/HospelThiv">GitHub</a>
+            </div>
+            <div class="container">
+                <img src="./images/ic_local_post_office.png" alt="post icon">
+                <a class="contacts_link" href="Thiv123@yandex.ru">Thiv123@yandex.ru</a>
+            </div>
+            
+        </section>
+        <section class="section_about_me" id="about_me">
+            <h2>About me</h2>
+                <p>I have no experience in web application development. But I'm interested in learning something new.</p>
+        </section>
+        <section class="section_skills" id="skills">
+            <h2>Skills</h2>
+            <div>
+                <ul>
+                    <li><img class="coub_li" src="./images/koub.png" alt="koub">HTML</li>
+                    <li><img class="coub_li" src="./images/koub.png" alt="koub">Git</li>
+                    <li><img class="coub_li" src="./images/koub.png" alt="koub">CSS</li>
+                    <li><img class="coub_li" src="./images/koub.png" alt="koub">JS Basic</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_code" id="code">
+            <h2>Code example</h2>
+            <div>
+                <p class="code_tab">function myFunction(arrayMy){</p>
+                <p class="code_tab_one">const inpObj = (document.getElementById("inNameClan").value).toUpperCase();</p>
+                <p class="code_tab_one">if(arrayMy.indexOf(inpObj)&lt;0){</p>
+                <p class="code_tab_two">document.getElementById("arrayScan").innerHTML="none"</p>
+                <p class="code_tab_one">}else{</p>
+                <p class="code_tab_two">document.getElementById("arrayScan").innerHTML = arrayMy[arrayMy.indexOf(inpObj)+1];</p>
+                <p class="code_tab_one">}</p>
+                <p class="code_tab">}</p>
+            </div>
+        </section>
+        <section class="section_education" id="education">
+            <h2>Education</h2>
+            <div>
+                <p>University: Volga State University of Telecommunications and Informatics.</p>
+            </div>
+        </section>
+        <section class="section_language" id="language">
+            <h2>Language</h2>
+            <div>
+                <ol>
+                    <li>Russian - Native;</li>
+                    <li>English - A0.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- <h2>footer</h2> -->
+        <a href="11">1111</a>
+        <img src="11211" alt="11111">
+        <div class="container"></div>
+    </footer>
 </body>
 </html>
