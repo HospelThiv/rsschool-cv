@@ -1,0 +1,162 @@
+body {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	/* height: 4000px; */
+	font: italic 20px Times New Roman, serif;
+	background-image: linear-gradient(rgba(12, 11, 11, 0.05), rgba(255, 255, 255, 0.01));
+}
+
+.container {
+	margin: 2px;
+	display: flex;
+	align-items: center;
+}
+
+img {
+	margin: 4px;
+}
+
+h1 {
+	margin: 10px;
+	padding: 30px;
+	font: bold 60px Times New Roman, serif;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font: bold 30px Times New Roman, serif;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding-bottom: 4px;
+}
+
+.coub_li {
+	margin: 0px;
+	padding-right: 10px;
+}
+
+h2::after {
+	content: "";
+	display: block;
+	height: 3px;
+	background-image: linear-gradient(to right, rgb(12, 11, 11), rgb(255, 255, 255));
+}
+
+.container_header {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.header_avatar {
+	width: 300px;
+}
+
+.navigation {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.nav_link {
+	margin: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.719);
+	transition: 1s;
+}
+
+.nav_link:hover {
+	text-decoration: none;
+	color: rgb(233, 72, 72, 0.9);
+}
+
+.contacts_li {
+	margin: 2px;
+	display: flex;
+	align-items: center;
+}
+
+.section_contacts {
+	display: flex;
+	flex-direction: column;
+}
+
+.contacts_link {
+	margin: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.9);
+	transition: 1s;
+}
+
+.contacts_link:hover {
+	text-decoration: none;
+	color: rgb(192, 166, 21, 0.9);
+}
+
+.code_tab {
+	padding-left: 20px;
+}
+
+.code_tab_one {
+	padding-left: 40px;
+}
+
+.code_tab_two {
+	padding-left: 60px;
+}
+
+.span_func {
+	color: rgb(0, 17, 255);
+}
+.span_obj {
+	color: rgb(165, 173, 44);
+}
+
+section {
+	width: 100%;
+}
+
+footer {
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-image: linear-gradient(to top, rgba(12, 11, 11, 0.03), rgba(255, 255, 255, 0.03));
+}
+
+.container_footer {
+	margin: 2px;
+	display: flex;
+	align-items: center;
+}
+
+#rs_logo {
+	display: block;
+	width: 80px;
+}
+
+.footer_year {
+	font: bold 25px Times New Roman, serif;
+}
