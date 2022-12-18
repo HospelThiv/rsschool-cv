@@ -141,6 +141,8 @@ h2::after {
 #projects {
 	display: flex;
 	flex-direction: column;
+	align-content: center;
+	align-items: center;
 }
 
 #projects-link {
