@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	position: relative;
 	width: 100%;
@@ -6,7 +10,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: wrap;
-	/* height: 4000px; */
 	font: italic 20px Times New Roman, serif;
 	background-image: linear-gradient(rgba(12, 11, 11, 0.05), rgba(255, 255, 255, 0.01));
 }
@@ -64,6 +67,7 @@ h2::after {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .header_avatar {
@@ -129,8 +133,22 @@ h2::after {
 .span_func {
 	color: rgb(0, 17, 255);
 }
+
 .span_obj {
 	color: rgb(165, 173, 44);
+}
+
+#projects {
+	display: flex;
+	flex-direction: column;
+}
+
+#projects-link {
+	transition: 0.3s;
+}
+
+#projects-link:hover {
+	box-shadow: 0 0 10px #0e1bc948;
 }
 
 section {
@@ -139,6 +157,7 @@ section {
 
 footer {
 	margin-top: 40px;
+	max-width: 1200px;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -155,8 +174,27 @@ footer {
 #rs_logo {
 	display: block;
 	width: 80px;
+	transition: 0.3s;
+}
+
+.footer__git-link {
+	border-radius: 50%;
+	transition: 0.3s;
+}
+
+.footer__git-link:hover {
+	box-shadow: 0 0 10px #0e1ac9c0;
+}
+
+#rs_logo:hover {
+	box-shadow: 0 0 5px #0e1ac9c0;
 }
 
 .footer_year {
 	font: bold 25px Times New Roman, serif;
+	transition: 0.3s;
+}
+
+.footer_year:hover {
+	text-shadow: #222ba73f 3px 3px 4px;
 }
